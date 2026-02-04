@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+
+  /* Soft romantic gradient */
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Center card */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+h1 {
+  font-size: 2.7em;
+  color: #c2185b;
+  margin-bottom: 15px;
+  text-shadow: 1px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Buttons wrapper */
+.buttons {
+  margin-top: 25px;
+}
+
+/* Common button style */
+.yes-button,
+.no-button {
+  font-size: 1.2em;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+/* YES button */
+.yes-button {
+  background: linear-gradient(45deg, #43cea2, #2ecc71);
+  margin-right: 15px;
+  box-shadow: 0 5px 15px rgba(46, 204, 113, 0.4);
+}
+
+.yes-button:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* NO button */
+.no-button {
+  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4);
+}
+
+.no-button:hover {
+  transform: translateY(-3px) scale(1.05);
+}
+
+/* GIF */
+.gif_container img {
+  max-width: 320px;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 25px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.gif_container img:hover {
+  transform: scale(1.05);
+}

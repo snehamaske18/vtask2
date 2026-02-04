@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+
+  /* Soft gradient background */
+  background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+/* Glass card container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 30px 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Heading */
+.header_text {
+  font-size: 3em;
+  color: #c2185b;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* GIF styling */
+.gif_container img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  border-radius: 15px;
+  margin-top: 20px;
+
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect */
+.gif_container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
